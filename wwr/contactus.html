@@ -7,6 +7,11 @@
     <meta name="author" content="Uwa Joseph">
     <link rel="stylesheet" href="styles/rafting.css">
     <title>Whitewater Rafting Adventures | Waterfalls |Paddle Power | Home</title>
+    <script>
+        function showMessage() {
+            alert("You have submitted your message successfully");
+        }
+    </script>
 </head>
 <body>
     <header> <img src="images/logo.png" alt="company logo"> 
@@ -27,7 +32,7 @@
      <article>
         <img src="images/uwa.jpg" alt="brighter faith" width="500">Brighter faith
      </article>
-       <form>
+     <form onsubmit="showMessage(); return false;">
         <fieldset>
             <legend>User Information</legend>
             <div class="form-item column2"> 
